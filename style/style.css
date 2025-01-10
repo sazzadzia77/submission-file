@@ -88,13 +88,18 @@ header .banner_left h2{
 header .banner_left button{
     color: rgb(255, 255, 255);
     border-radius: 8px;
-    background: rgb(0, 106, 80);
+    background: #006a50;
     font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     padding: 17px 34px;
-    border: none;
+    border: 1px solid #006a50;
+    cursor: pointer;
+}
+header .banner_left button:hover{
+    color: #006a50;
+    background: rgba(0, 0, 0, 0);
 }
 
 /* Pillar section design */
@@ -388,4 +393,77 @@ header .banner_left button{
 #news_section .right button:hover{
     background: #ffffff00;
     color: #006a50;
+}
+
+/* Donate Section Design */
+
+#donate_section{
+    width: 1280px;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#donate_section .donate_main_container > p{
+    color: #0e0e0eb3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 88px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+#donate_section .donate_main_container > button{
+    color: #ffffff;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1px solid #0d0d0d1a;
+    border-radius: 8px;
+    background: #006a50;
+    padding: 17px 34px;
+    cursor: pointer;
+}
+#donate_section .donate_main_container > button:hover{
+    color: #006a50;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #006a50;
+}
+#donate_section .taka_container{
+    width: 1071px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 24px;
+}
+#donate_section .taka_container .taka{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+#donate_section .taka_container .taka p{
+    color: #0e0e0ecc;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#donate_section input[type="text"]{
+    width: 952px;
+    margin: 32px 0;
+    padding: 23px 40px;
+    border: none;
+    border-bottom: 1px solid #0e0e0e26;
+    background: #ffffff;
+    display: inline-block;
+}
+#donate_section ::placeholder{
+    text-align: center;
+    color: #0e0e0e4d;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
 }
