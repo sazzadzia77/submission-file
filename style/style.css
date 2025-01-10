@@ -94,6 +94,7 @@ header .banner_left button{
     font-weight: 600;
     line-height: 22px;
     padding: 17px 34px;
+    border: none;
 }
 
 /* Pillar section design */
@@ -171,7 +172,7 @@ header .banner_left button{
     border-radius: 8px;
     background: #5490f5;
     padding: 11px 20px;
-    border: none;
+    border: 1px solid #5490f5;
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
@@ -198,6 +199,7 @@ header .banner_left button{
 }
 #future_vision .visions .vis2_btn{
     background: #09a15c;
+    border: 1px solid #09a15c;
 }
 #future_vision .visions .vis2_btn:hover{
     color: #09a15c;
@@ -206,6 +208,7 @@ header .banner_left button{
 }
 #future_vision .visions .vis3_btn{
     background: #FFC239;
+    border: 1px solid #FFC239;
 }
 #future_vision .visions .vis3_btn:hover{
     color: #FFC239;
@@ -309,4 +312,80 @@ header .banner_left button{
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     background: rgba(9, 161, 92, 0.15);
+}
+
+/* News section */
+
+#news_section{
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#news_section > p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#news_section .child_element_container{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+#news_section .row_reverse{
+    flex-direction: row-reverse;
+}
+#news_section .left img{
+    border-radius: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#news_section .right h4{
+    color: #0e0e0ecc;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+#news_section .right h6{
+    color: #0e0e0eb3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#news_section .right h6 span{
+    margin-right: 12px;
+}
+#news_section .right p{
+    color: #0e0e0eb3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+#news_section .right button{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 8px;
+    background: #006a50;
+    border: 1px solid #006a50;
+    padding: 13px 26px;
+    cursor: pointer;
+}
+#news_section .right button:hover{
+    background: #ffffff00;
+    color: #006a50;
 }
