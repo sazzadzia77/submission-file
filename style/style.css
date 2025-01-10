@@ -467,3 +467,64 @@ header .banner_left button:hover{
     font-weight: 400;
     line-height: 24px;
 }
+
+/* Subscribe section design */
+
+#subscribe_section{
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+    background: #C6E4D6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 24px;
+}
+#subscribe_section p{
+    width: 622px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#subscribe_section .subscribe_btn{
+    color: #ffffff;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px;
+    background: #006A50;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+#subscribe_section input[type="email"]{
+    width: 600px;
+    border: none;
+    background: #FFFFFF;
+    padding-top: 22px;
+    padding-bottom: 19px;
+    border-radius: 8px 0px 0px 8px;
+    margin-bottom: 25px;
+}
+#subscribe_section input[type="email"]::placeholder{
+    color: #0e0e0e4d;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-left: 40px;
+    border: none;
+}
+#subscribe_section h6{
+    color: #0e0e0eb3;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
