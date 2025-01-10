@@ -13,6 +13,13 @@
     line-height: 48px;
 
 }
+.primary_text{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 /* Body design */
 body{
@@ -108,8 +115,6 @@ header .banner_left button{
     background: #ffffff;
     border: 1px solid #0e0e0e26;
     border-radius: 16px;
-
-
 }
 #pillar_section .pillar h6{
     color: #0e0e0ecc;
@@ -128,4 +133,180 @@ header .banner_left button{
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* Future vision Section */
+
+#future_vision{
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#future_vision > p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+#future_vision .visions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+#future_vision .vision{
+    padding: 32px;
+}
+#future_vision .vision h6{
+    margin-top: 28px;
+    color: #0e0e0ecc;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+#future_vision .vision p{
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+#future_vision .vision button{
+    border-radius: 8px;
+    background: #5490f5;
+    padding: 11px 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+}
+#future_vision .vis1{
+    background: #5490f533;
+    border-radius: 16px;
+}
+#future_vision .vis2{
+    border-radius: 16px;
+    background: #c6e4d6;
+}
+#future_vision .vis3{
+    border-radius: 16px;
+    background: #f7ebcf;
+}
+#future_vision .visions .vis1_btn:hover{
+    color: #5490F5;
+    background-color: #548ff500;
+    border: 1px solid #5490F5;
+}
+#future_vision .visions .vis2_btn{
+    background: #09a15c;
+}
+#future_vision .visions .vis2_btn:hover{
+    color: #09a15c;
+    background-color: #548ff500;
+    border: 1px solid #09a15c;
+}
+#future_vision .visions .vis3_btn{
+    background: #FFC239;
+}
+#future_vision .visions .vis3_btn:hover{
+    color: #FFC239;
+    background-color: #548ff500;
+    border: 1px solid #FFC239;
+}
+#future_vision .yunus_sir_quote p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#future_vision .yunus_sir_quote{
+    background: url(../assets/quote-bg.png), #ffffff;
+    background-size: 54px;
+    background-repeat: no-repeat;
+    background-position: 25px 28px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    margin-top: 32px;
+}
+#future_vision .yunus_sir_quote h5{
+    color: #0e0e0ecc;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+#future_vision .yunus_sir_quote h6{
+    color: #0e0e0e99;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Opinion section design */
+
+#opinion_section{
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#opinion_section .opinion_container{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    margin-top: 24px;
+}
+#opinion_section .opinion_child_container{
+    width: 1216px;
+}
+#opinion_section .opinion_title{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+#opinion_section .opinion_title_element_container{
+    display: flex;
+    justify-content: space-between;
+}
+#opinion_section .opinion_title_element_container p{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+#opinion_section .opinion_body_element_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#opinion_section .opinion_body_element_container .left{
+    width: 998px;
+    padding: 33px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-top: none;
+}
+#opinion_section .opinion_body_element_container .left p{
+    color: #0e0e0e;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+#opinion_section .opinion_body_element_container .right{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-top: none;
+    border-left: none;
+}
+#opinion_section .opinion_body_element_container .right button{
+    padding: 10px 14px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
 }
