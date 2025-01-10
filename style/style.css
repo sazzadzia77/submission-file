@@ -13,9 +13,6 @@
     line-height: 48px;
 
 }
-section{
-    margin: 80px 0;
-}
 
 /* Body design */
 body{
@@ -24,9 +21,10 @@ body{
 /* Header design */
 header{
     width: 1280px;
-    margin-right: 20px;
+    margin: 0 auto;
 }
 nav{
+    /* width: 1280px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +50,8 @@ nav button{
     margin: 24px 0;
 }
 header .banner{
+    width: 1280px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,6 +93,7 @@ header .banner_left button{
 
 #pillar_section{
     width: 1280px;
+    margin: 80px auto;
 }
 #pillar_section .pillars{
     display: flex;
