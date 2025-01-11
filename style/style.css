@@ -273,6 +273,7 @@ header .banner_left button:hover{
     align-items: center;
     padding: 32px;
     margin-top: 24px;
+    border-radius: 16px;
 }
 #opinion_section .opinion_child_container{
     width: 1216px;
@@ -447,6 +448,13 @@ header .banner_left button:hover{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 40px;
+    cursor: pointer;
+}
+#donate_section .taka_container .taka:hover{
+    background: #C6E4D6;
+}
+#donate_section .taka_container .selected_taka{
+    background: #C6E4D6;
 }
 #donate_section .taka_container .taka p{
     color: #0e0e0ecc;
